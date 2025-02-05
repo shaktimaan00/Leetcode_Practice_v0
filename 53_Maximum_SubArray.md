@@ -30,7 +30,7 @@ public:
 
   3. **Resetting `current_sum`**:
      - If `current_sum` becomes negative, it is reset to 0. This is because a negative sum would decrease the sum of any subsequent subarray, so it's better to start a new subarray.
-
+ 
   4. **Return**:
      - After iterating through all elements, the function returns `max_sum`, which is the largest sum of any contiguous subarray found.
 
